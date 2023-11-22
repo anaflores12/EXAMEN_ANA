@@ -1,0 +1,66 @@
+main{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+p {
+    color: #0c0d11;
+}
+
+.formulario {
+    width: min(60rem, 100%);
+    margin: 0 auto; 
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.formulario fieldset{
+    border: none;
+}
+
+
+.formulario .input-text {
+    width: 400px; /* Ancho completo para los elementos de entrada de texto en el formulario */
+    padding: 1rem; /* Relleno interno para los elementos de entrada de texto */
+    border-radius: .5rem;
+    border-color:#e9e9ea ;
+}
+
+.contenedor-datos {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.contenedor-datos{
+    position: absolute;
+    background-color: rgba(243, 238, 238, 0.7);
+    width: 60%;
+    height: 60%;
+    display: flex; /*Alinear verticalmente y horizontalmente*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton:hover {
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa sobre el botón */
+}
+
+.boton{
+    background-color:#1977f1;
+    color:#fafcff ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    margin: 20px ;
+}
+
+.contenedor-datos p{
+    color: #1977f1;
+    font-size: 15px;
+}
+
+.recuadro {
+    columns: 2;
+    color: #e9e9ea;
+}
+
